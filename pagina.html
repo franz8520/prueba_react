@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Banda</title>
+</head>
+<body>
+
+	<header>
+		<h1>Soda Stereo</h1>
+		<nav>
+			
+				<a href="#">Inicio</a>
+				<a href="#">Biografía</a>
+				<a href="#contact">Contacto</a>
+			
+		</nav>
+	</header>
+
+	<main>
+		<h2>Acerca de Nosotros</h2>
+		<p>Soda Stereo es una banda del Rock alternativo formada en Buenos Aires Argentina en 1982 por Gustavo Cerati (voz y guitarra), 
+            Zeta Bosio (bajo) y Charly Alberti (batería),
+            considerada ampliamente por la crítica especializada como la banda más importante, 
+            popular e influyente de rock en español de todos los tiempos y una leyenda de la música latinoamericana. 
+            Fueron el primer grupo de habla hispana en conseguir un éxito masivo en Latinoamérica.</p>
+    <section>
+            <h2>Nuestros Artistas</h2>
+            <ul>
+                <li>
+                    Virus
+                </li>
+                <li>
+                    Luis Alberto Spinetta
+                </li>
+                <li>
+                    Charly García
+                </li>
+                <li>
+                    Coldplay
+                </li>
+                <li>
+                    Babymetal
+                </li>            
+                <li>
+                    Kana-Boon                                                                           
+                </li>
+                <li>
+                    Miku Hatsune
+                </li>
+                <li>
+                    Mar de Copas
+                </li>
+                <li>
+                    Zard
+                </li>
+            </ul>
+		<h2 id="contact">Contacto </h2>
+		<form onsubmit=" return simularAccionFormulario()">
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Mensaje:</label>
+			<textarea id="message" name="message" required></textarea>
+
+            <select name="city" id="city">
+                <option value="armenia">Colombia</option>
+                <option value="bogota">Estados Unidos</option>
+                <option value="medellin">Costa Rica</option>
+                <option value="buenaventura">Bélgica</option>
+            </select>
+
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Soda Stereo</p>
+	</footer>
+<script type="js" src="./accion-formulario.js"></script>
+</body>
+</html>
